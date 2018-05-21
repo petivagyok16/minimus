@@ -11,6 +11,7 @@ import { WeatherService } from './services/weather.service';
 import { UiService } from './services/ui.service';
 import { AddComponent } from './components/add/add.component';
 import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './components/login/login.component';
     AddCardComponent,
     DetailsComponent,
     AddComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
