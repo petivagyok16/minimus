@@ -9,6 +9,7 @@ import { AddCardComponent } from './components/add-card/add-card.component';
 import { DetailsComponent } from './components/details/details.component';
 import { WeatherService } from './services/weather.service';
 import { UiService } from './services/ui.service';
+import { AddComponent } from './components/add/add.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UiService } from './services/ui.service';
     HomeComponent,
     WeatherCardComponent,
     AddCardComponent,
-    DetailsComponent
+    DetailsComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,
